@@ -1,0 +1,15 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    {% set url = url(particle.url) %}
+    {% set image = url(particle.image) %}
+
+        {% if particle.url is not empty %}
+         <a href="{{ url }}" title="{{ particle.text }}" >
+         <img src="{{ url(particle.image) }}" alt="{{ particle.text }}" class="{{ particle.class }}" />
+         </a>
+        {% else %}
+        <img src="{{ url(particle.image) }}" alt="{{ particle.text }}" class="{{ particle.class }}" />
+        {% endif %}
+
+{% endblock %}

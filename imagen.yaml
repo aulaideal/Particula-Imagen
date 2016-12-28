@@ -1,0 +1,33 @@
+name: Imagen
+description: Muestra sólo una imagen.
+type: particle
+icon: fa-file-image-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Habilitado
+      description: Globally enable logo particles.
+      default: true
+
+    url:
+      type: input.text
+      label: Enlace
+      description: Enlace de la imagen. Deja en blanco si no la necesitas.
+
+    image:
+      type: input.imagepicker
+      label: Imagen
+      description: Selecciona una imagen.
+
+    text:
+      type: input.text
+      label: Texto alternativo
+      description: Texto alternativo de la imagen (ALT).
+
+    class:
+      type: input.selectize
+      label: Clases CSS 
+      description: Defina una clase CSS para la imagen.
+
