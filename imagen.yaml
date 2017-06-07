@@ -3,10 +3,6 @@ description: Muestra sólo una imagen.
 type: particle
 icon: fa-file-image-o
 
-configuration:
-  caching:
-    type: static
-
 form:
   fields:
     enabled:
