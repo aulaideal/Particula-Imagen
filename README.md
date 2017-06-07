@@ -3,6 +3,8 @@ Partícula para Gantry 5 que te permite incluir una imagen en tu Layout sin que 
 La Partícula de tipo "Logo/Image" que viene con Gantry, hace que la imagen que coloques siempre sea un enlace. 
 Esta particula permite incluir una imagen, si no se coloca nada en el campo "Href" la imagen insertada NO INCLUIRÁ UN ENLACE.
 
+![imagen](https://user-images.githubusercontent.com/9434043/26900080-ba181228-4b96-11e7-9578-5b0c0771da7b.png)
+
 Instalación
 -----------
 No hemos incluido un instalador ya que deseamos que esta partícula pueda ser usando tanto en Joomla como en Wordpress. El modo de instalación es muy sencillo:
